@@ -57,13 +57,13 @@ class SecondInputTableViewController: UITableViewController {
         data.macshulianchengdu = mac.text
         data.xcodeshulianchengdu = xcode.text
         data.jiangshouyuyan = expectedLanguage.text
-        data.dayishijian = officeHour.text
-        postData()
+        data.dayishijianduan = officeHour.text
+        //postData()
         destination.data.append(data)
     }
     
     func postData(){
-        if let url = NSURL(string: "http://174.140.168.150:8000/invest/invest_add.php?xuehao=\(data.xuehao)&xingming=\(data.xingming)&xingbie=\(data.xingbie)&zhuanye=\(data.zhuanye)&shouji=\(data.shouji)&email=\(data.email)&shulianyuyan=\(data.shulianyuyan)&macshulianchengdu=\(data.macshulianchengdu)&xcodeshulianchengdu=\(data.xcodeshulianchengdu)&jiangshouyuyan=\(data.jiangshouyuyan)&dayishijianduan=\(data.dayishijian)") {
+        if let url = NSURL(string: "http://174.140.168.150:8000/invest/invest_add.php?xuehao=\(data.xuehao)&xingming=\(data.xingming)&xingbie=\(data.xingbie)&zhuanye=\(data.zhuanye)&shouji=\(data.shouji)&email=\(data.email)&shulianyuyan=\(data.shulianyuyan)&macshulianchengdu=\(data.macshulianchengdu)&xcodeshulianchengdu=\(data.xcodeshulianchengdu)&jiangshouyuyan=\(data.jiangshouyuyan)&dayishijianduan=\(data.dayishijianduan)") {
             
             if let response = NSData(contentsOfURL: url, options: NSDataReadingOptions.allZeros, error: nil) {
                 let json = JSON(data: response)

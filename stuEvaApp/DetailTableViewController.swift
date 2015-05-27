@@ -46,7 +46,7 @@ class DetailTableViewController: UITableViewController {
         macLabel.text = detail.macshulianchengdu
         xcodeLabel.text = detail.xcodeshulianchengdu
         expectedLanguageLabel.text = detail.jiangshouyuyan
-        officeHourLabel.text = detail.dayishijian
+        officeHourLabel.text = detail.dayishijianduan
         status.text = detail.status
         
     }
