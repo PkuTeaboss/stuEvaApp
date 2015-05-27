@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C240B3F31B1330DE002C8194 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B3F21B1330DE002C8194 /* MainTableViewController.swift */; };
 		C240B3F51B1334DA002C8194 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B3F41B1334DA002C8194 /* MainTableViewCell.swift */; };
 		C240B3F71B133CE8002C8194 /* ArmanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B3F61B133CE8002C8194 /* ArmanData.swift */; };
 		C240B3FB1B1374D3002C8194 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B3FA1B1374D3002C8194 /* DetailTableViewController.swift */; };
@@ -17,9 +16,10 @@
 		C276CB8A1B12E4680054C2CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C276CB891B12E4680054C2CD /* Images.xcassets */; };
 		C276CB8D1B12E4680054C2CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C276CB8B1B12E4680054C2CD /* LaunchScreen.xib */; };
 		C276CB991B12E4680054C2CD /* stuEvaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C276CB981B12E4680054C2CD /* stuEvaAppTests.swift */; };
-		C276CBAB1B12F1080054C2CD /* FirstInputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C276CBAA1B12F1080054C2CD /* FirstInputTableViewController.swift */; };
 		C276CBAD1B12F80B0054C2CD /* SecondInputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C276CBAC1B12F80B0054C2CD /* SecondInputTableViewController.swift */; };
 		C2C67AB21B156B1800D68B5F /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C67AB11B156B1800D68B5F /* ResultTableViewController.swift */; };
+		C2C67ADF1B15C23900D68B5F /* FirstInputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C67ADD1B15C23900D68B5F /* FirstInputTableViewController.swift */; };
+		C2C67AE01B15C23900D68B5F /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C67ADE1B15C23900D68B5F /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C240B3F21B1330DE002C8194 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = ../MainTableViewController.swift; sourceTree = "<group>"; };
 		C240B3F41B1334DA002C8194 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		C240B3F61B133CE8002C8194 /* ArmanData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmanData.swift; sourceTree = "<group>"; };
 		C240B3FA1B1374D3002C8194 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
@@ -47,9 +46,10 @@
 		C276CB921B12E4680054C2CD /* stuEvaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stuEvaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C276CB971B12E4680054C2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C276CB981B12E4680054C2CD /* stuEvaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stuEvaAppTests.swift; sourceTree = "<group>"; };
-		C276CBAA1B12F1080054C2CD /* FirstInputTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstInputTableViewController.swift; path = ../FirstInputTableViewController.swift; sourceTree = "<group>"; };
 		C276CBAC1B12F80B0054C2CD /* SecondInputTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondInputTableViewController.swift; sourceTree = "<group>"; };
 		C2C67AB11B156B1800D68B5F /* ResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+		C2C67ADD1B15C23900D68B5F /* FirstInputTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstInputTableViewController.swift; sourceTree = "<group>"; };
+		C2C67ADE1B15C23900D68B5F /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +93,12 @@
 			children = (
 				C276CB821B12E4680054C2CD /* AppDelegate.swift */,
 				C240B3F61B133CE8002C8194 /* ArmanData.swift */,
-				C240B3F21B1330DE002C8194 /* MainTableViewController.swift */,
 				C240B3FA1B1374D3002C8194 /* DetailTableViewController.swift */,
+				C2C67ADD1B15C23900D68B5F /* FirstInputTableViewController.swift */,
+				C2C67ADE1B15C23900D68B5F /* MainTableViewController.swift */,
 				C240B43C1B14377B002C8194 /* SwiftyJSON.swift */,
 				C240B3F41B1334DA002C8194 /* MainTableViewCell.swift */,
 				C276CBAC1B12F80B0054C2CD /* SecondInputTableViewController.swift */,
-				C276CBAA1B12F1080054C2CD /* FirstInputTableViewController.swift */,
 				C2C67AB11B156B1800D68B5F /* ResultTableViewController.swift */,
 				C276CB861B12E4680054C2CD /* Main.storyboard */,
 				C276CB891B12E4680054C2CD /* Images.xcassets */,
@@ -233,13 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C276CBAB1B12F1080054C2CD /* FirstInputTableViewController.swift in Sources */,
 				C276CBAD1B12F80B0054C2CD /* SecondInputTableViewController.swift in Sources */,
 				C2C67AB21B156B1800D68B5F /* ResultTableViewController.swift in Sources */,
 				C276CB831B12E4680054C2CD /* AppDelegate.swift in Sources */,
 				C240B3F71B133CE8002C8194 /* ArmanData.swift in Sources */,
+				C2C67AE01B15C23900D68B5F /* MainTableViewController.swift in Sources */,
 				C240B3FB1B1374D3002C8194 /* DetailTableViewController.swift in Sources */,
-				C240B3F31B1330DE002C8194 /* MainTableViewController.swift in Sources */,
+				C2C67ADF1B15C23900D68B5F /* FirstInputTableViewController.swift in Sources */,
 				C240B43D1B14377B002C8194 /* SwiftyJSON.swift in Sources */,
 				C240B3F51B1334DA002C8194 /* MainTableViewCell.swift in Sources */,
 			);
